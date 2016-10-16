@@ -14,6 +14,7 @@
 import random
 def wordlist():
 	l = '''
+	aardvark
 	account
 	achiever
 	acoustics
