@@ -1009,5 +1009,5 @@ def wordlist():
 	l2 = l.split("\n")
 	return l2
 def getRandomWord() :
-	x = random.randint(1, 900)
+	x = random.randint(1, len(wordlist()))
 	return wordlist()[x]
